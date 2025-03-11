@@ -1,24 +1,82 @@
-# weather-forecasting 
-here we use the three libraries 
+Weather Forecasting System
 
-(i) Requests Library Documentation
-Install: Run pip install requests to install the requests library.
-Fetch Weather Data: Use response = requests.get("API_URL") to fetch and process weather data from a weather API.
+📌 Project Overview
 
+The Weather Forecasting System is a Python-based application that provides real-time weather updates using the OpenWeatherMap API. The project features a Graphical User Interface (GUI) built with Tkinter to allow users to input a city name and retrieve weather details such as temperature, humidity, wind speed, and weather descriptions.
 
-(ii) Tkinter Documentation
-Install Tkinter: Tkinter comes pre-installed with Python. You can start using it without any additional installation. However, if you encounter any issues, you can install it using:
-pip install tk
-Tkinter is used for creating graphical user interfaces (GUIs) in Python. It allows you to build windows, dialogs, and interactive elements like buttons and labels for your applications.
+🚀 Features
 
+🌤 Fetches real-time weather data
 
-(iii) MessageBox Documentation (Tkinter)
-Tkinter's messagebox module is used to create different types of message boxes in a Tkinter GUI. Common functions include showinfo(), showwarning(), showerror(), askquestion(), askokcancel(), and askyesno(), which display informational, warning, error messages, and dialog boxes, respectively.
+📊 Displays temperature, humidity, wind speed, and description
 
-These references provide comprehensive documentation, tutorials, and guides for utilizing the 
-Python Requests library for API requests, building graphical user interfaces using Tkinter, and 
-displaying message boxes. Additionally, they offer valuable resources for machine learning and 
-deep learning techniques, including scikit-learn, TensorFlow, and PyTorch, which are relevant 
-for developing weather forecasting models.
+🖥️ User-friendly Tkinter GUI
 
-Creat the Api key using this link:- https://openweathermap.org/api 
+🌎 Supports multiple cities globally
+
+⚙️ Error handling for incorrect city inputs
+
+📂 Project Structure
+
+├── import_requests.py  # Main Python script for fetching and displaying weather data
+├── README.md  # Project documentation
+├── requirements.txt  # Dependencies list
+├── mini_project_report.pdf  # Detailed project report
+├── weather_forecasting_presentation.pptx  # Project presentation
+
+🔧 Installation
+
+Prerequisites
+
+Ensure you have Python 3.x installed on your system.
+
+Steps
+
+Clone this repository:
+
+git clone https://github.com/your-username/weather-forecasting.git
+cd weather-forecasting
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Get an API key from OpenWeatherMap
+
+Replace YOUR_API_KEY in import_requests.py with your actual API key.
+
+Run the application:
+
+python import_requests.py
+
+🖥️ Usage
+
+Run the script and enter a city name in the input box.
+
+Click on the Get Weather button.
+
+The application will fetch and display the weather details.
+
+Close the application when done.
+
+📌 Screenshots
+
+(Add screenshots of the GUI for better visualization)
+
+🤝 Contribution
+
+We welcome contributions! To contribute:
+
+Fork the repository
+
+Create a new branch (feature-name)
+
+Commit changes
+
+Push to your fork
+
+Create a Pull Request
+
+📜 License
+
+This project is licensed under the MIT License.
